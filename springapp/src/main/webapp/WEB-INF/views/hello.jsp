@@ -22,7 +22,7 @@
 		<div class="row">
 			<div class="col">
 				<div class="row justify-content-center">
-					<a href="index.htm" class="btn btn-success" >BACK</a>
+					<a href="index.jsp" class="btn btn-success" >BACK</a>
 				</div>
 			</div>
 		</div>

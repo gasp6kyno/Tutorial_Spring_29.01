@@ -42,6 +42,6 @@ public class HelloController {
     	String nombre = "Juan";
     	logger.info("Returning services");
 
-        return new ModelAndView("servicios.jsp", "miNombre", nombre);
+        return new ModelAndView("servicios", "miNombre", nombre);
     }
 }
