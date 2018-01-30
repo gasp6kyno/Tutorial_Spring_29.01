@@ -41,6 +41,17 @@
 		<div class="row">
 			<div class="col">
 				<div class="row justify-content-center">
+					 <a href="<c:url value="priceincrease.htm"/>" class="btn btn-success">Increase Prices</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="row justify-content-center">
 					<a href="index.jsp" class="btn btn-success">BACK</a>
 				</div>
 			</div>
