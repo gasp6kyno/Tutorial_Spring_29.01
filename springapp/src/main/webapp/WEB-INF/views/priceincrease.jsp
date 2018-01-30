@@ -31,12 +31,11 @@
 	<br>
 	<div class="container">
 		<form:form method="post" commandName="priceIncrease">
-			<table>
+			<table class="table">
 				<tr>
-					<td align="right" width="20%">Increase (%):</td>
-					<td width="20%"><form:input path="percentage" class="form-control"/></td>
-					<td width="60%"><form:errors path="percentage"
-							cssClass="error" /></td>
+					<td align="right" width="30%">Increase (%):</td>
+					<td width="10%"><form:input path="percentage" class="form-control"/></td>
+					<td width="60%"><form:errors path="percentage" cssClass="error"/></td>
 				</tr>
 			</table>
 			<br>
@@ -48,7 +47,7 @@
 		<div class="row">
 			<div class="col">
 				<div class="row justify-content-center">
-					<a href="<c:url value="hello.htm"/>" class="btn btn-success">Home</a>
+					<a href="<c:url value="hello.htm"/>" class="btn btn-success">BACK</a>
 				</div>
 			</div>
 		</div>
