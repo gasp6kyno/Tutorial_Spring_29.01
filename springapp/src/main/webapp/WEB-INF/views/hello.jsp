@@ -1,3 +1,5 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -10,18 +12,17 @@
 <title>Hello :: Spring Application</title>
 </head>
 <body>
-	<div class="container" href="index.jsp">
-		<div class="row">
-			<h2>Hello - Spring Application</h2>
-			<p>Greetings.</p>
+	<div class="container">
+		<div class="col align-self-center">
+			<h2 class="row justify-content-center">Hello - Spring Application</h2>
+			<p class="row justify-content-center">Greetings, it is now <c:out value="${now}"/></p>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<div class="row justify-content-center">
-					<button type="button" class="btn btn-success" href="index.htm">BACK</button>
-<!-- 					<a href="hello.htm">2</a> -->
+					<a href="index.htm" class="btn btn-success" >BACK</a>
 				</div>
 			</div>
 		</div>

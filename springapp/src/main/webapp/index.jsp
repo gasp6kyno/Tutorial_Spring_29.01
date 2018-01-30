@@ -1,3 +1,8 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
+
+<%-- Redirected because we can't set the welcome page to a virtual URL. --%>
+<%-- <c:redirect url="/hello.htm"/> --%>
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -20,13 +25,12 @@
 		<div class="row">
 			<div class="col">
 				<div class="row justify-content-center">
-					<button type="button" class="btn btn-success" href="hello.htm">HELLO!!</button>
-<!-- 					<a href="hello.htm">2</a> -->
+					<a href="hello.htm"><button type="button" class="btn btn-success">HELLO!!</button></a>
 				</div>
 			</div>
 			<div class="col">
 				<div class="row justify-content-center">
-				<button type="button" class="btn btn-success" href="servicios.htm">Servícios</button>
+					<a href="servicios.htm"><button type="button" class="btn btn-success">Servícios</button></a>
 				</div>
 			</div>
 		</div>
