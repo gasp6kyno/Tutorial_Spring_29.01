@@ -13,7 +13,7 @@
 <title><fmt:message key="title" /></title>
 <style>
 .error {
-	color: red;
+	color: blue;
 }
 </style>
 </head>
